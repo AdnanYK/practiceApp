@@ -16,18 +16,6 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.yellow
         // Do any additional setup after loading the view.
     }
-
-//    @IBAction func YellowButton(_ sender: UIButton) {
-//        if yellowColor {
-//            view.backgroundColor = UIColor.red
-//            yellowColor = false
-//        }
-//        else{
-//            view.backgroundColor = UIColor.yellow
-//            yellowColor = true
-//        }
-//
-//    }
    
     @IBAction func toggleYellow(_ sender: UISwitch) {
         if yellowColor {
